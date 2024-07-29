@@ -39,7 +39,10 @@ function renderLicenseLink(license) {
 // Returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  const licenseLink = renderLicenseLink(data.license);
+  const licenseLink = renderLicenseLink(license);
+return `## License
+This application is covered under the ${license} license.
+${licenseLink}`
 }
 
 // Generates markdown for README
@@ -47,8 +50,7 @@ function generateMarkdown(data) {
 const licenseBadge = renderLicenseBadge(data.license);
 const licenseSection = renderLicenseSection(data.license);
 
-return `
-# ${data.title}
+return `# ${data.title}
 
 ${licenseBadge}
 
@@ -61,6 +63,7 @@ ${data.description}
 - [Contribution](#contribution)
 - [Testing](#testing)
 - [Questions](#questions)
+- [License](#license)
 
 ## Installation
 ${data.installationInstructions}
@@ -79,8 +82,7 @@ GitHub username: ${data.username}
 GitHub link: https://github.com/${data.username}
 For additional questions, email me at ${data.email}
 
-${licenseSection}
-`;
+${licenseSection}`;
 }
 
 module.exports = { 

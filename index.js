@@ -1,7 +1,7 @@
 // Includes packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { renderLicenseBadge, renderLicenseLink, renderLicenseSection, generateMarkdown } = require('./utils/generateMarkdown');
+const { generateMarkdown } = require('./utils/generateMarkdown');
 
 // Creates an array of questions for user input
 const questions = ["What is the project title?", "What is the project description?", "What are the installation instructions?", "What is the usage information?", "What are the contribution guidelines?", "What are the testing instructions?", "What license do you want?", "What is your GitHub username?", "What is your email?"];
