@@ -73,7 +73,7 @@ function init() {
       },
     ])
     .then((data) => {
-      const fileName = 'README.md';
+      const fileName = 'myREADME.md';
       writeToFile(fileName, data);
     });
 }

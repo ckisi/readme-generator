@@ -41,7 +41,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   const licenseLink = renderLicenseLink(license);
 return `## License
-This application is covered under the ${license} license.
+This application is covered under the ${license} license.  
 ${licenseLink}`
 }
 
@@ -78,9 +78,9 @@ ${data.contributionGuidelines}
 ${data.testingInstructions}
 
 ## Questions
-GitHub username: ${data.username}
-GitHub link: https://github.com/${data.username}
-For additional questions, email me at ${data.email}
+- GitHub username: ${data.username}
+- GitHub link: https://github.com/${data.username}
+- For additional questions, email me at ${data.email}
 
 ${licenseSection}`;
 }
