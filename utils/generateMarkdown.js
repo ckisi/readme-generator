@@ -85,6 +85,7 @@ For additional questions, email me at ${data.email}
 ${licenseSection}`;
 }
 
+// Exporting functions to my main js file
 module.exports = { 
   renderLicenseBadge,
   renderLicenseLink,
