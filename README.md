@@ -14,7 +14,7 @@ In order to use this generator, first open the terminal. Use the command "node i
 https://github.com/ckisi/readme-generator
 
 ## Video
-https://app.screencastify.com/v2/manage/videos/0rLd0vb1pJXKP2EdPb89
+https://drive.google.com/file/d/1ak1b2sMqjOLqdnWFK6HEPuzwR4Y1d1dJ/view?pli=1
 
 ## Screenshots
 ![](./assets/readmegenss1.png)
